@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="tbl" prefHeight="829.0" prefWidth="914.0" stylesheets="@style/MaterilaReleaseDetailsList.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.revivatea.controler.ViewMaterilaReleaseDetailsListControler">
+   <children>
+      <TableView id="font" fx:id="tblDetails" layoutX="10.0" layoutY="281.0" prefHeight="441.0" prefWidth="894.0">
+         <columns>
+            <TableColumn prefWidth="178.0" text="ReleaseDetails ID" />
+            <TableColumn prefWidth="180.0" text="Material Release ID" />
+            <TableColumn prefWidth="172.0" text="Material ID" />
+            <TableColumn prefWidth="171.0" text="QTY" />
+            <TableColumn prefWidth="192.0" text="Total Value" />
+         </columns>
+      </TableView>
+      <Label prefHeight="80.0" prefWidth="914.0" style="-fx-background-color: #FFA500;" text="                  Reviva Tea -www.revivatea.com">
+         <font>
+            <Font name="Book Antiqua Bold" size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBack" layoutX="3.0" layoutY="6.0" mnemonicParsing="false" onAction="#btnBack_OnAction" prefHeight="65.0" prefWidth="88.0" style="-fx-background-color: #FFA500;">
+         <graphic>
+            <ImageView fitHeight="52.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/back2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Separator layoutX="101.0" layoutY="5.0" orientation="VERTICAL" prefHeight="65.0" prefWidth="6.0" />
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="759.0" prefHeight="71.0" prefWidth="914.0" style="-fx-background-color: #FFA500;" text="THE ART OF TEA MAKING">
+         <font>
+            <Font name="Book Antiqua Bold" size="21.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="349.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/relase.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,10 @@
+#f{
+    -fx-background-image: url("/com/revivatea/asset/back2.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size :stretch;
+    -fx-opacity: 10;
+}
+
+#txt{
+
+}
